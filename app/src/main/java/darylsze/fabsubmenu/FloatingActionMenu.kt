@@ -310,7 +310,6 @@ class FloatingActionMenu @JvmOverloads constructor(
         val cy = (fabMenuParent.getTop() + fabMenuParent.getBottom()) / 2
 
         // get the final radius for the clipping circle
-//        val finalRadius = Math.max(viewToShow.getWidth(), viewToShow.getHeight()) + 500
         val finalRadius = Math.sqrt(Math.pow(viewToShow.width.toDouble(), 2.toDouble()) + Math.pow(viewToShow.height.toDouble(), 2.toDouble()))
 
         // create the animator for this view (the start radius is zero)
